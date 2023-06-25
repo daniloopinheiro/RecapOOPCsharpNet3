@@ -18,8 +18,8 @@ namespace RecapTiposOOP
             
             Console.WriteLine($"Tipo De Dado: {new BYte.GetByte().Titulo}");
             Console.WriteLine("========================================================================");
-            Console.WriteLine($"Primeiro tipo aguardado: {new BYte.GetByte().ByteMin}");
-            Console.WriteLine($"Segundo tipo aguardado: {new BYte.GetByte().ByteMax}");
+            Console.WriteLine($"Primeiro tipo aguardado: {new BYte.GetByte().ByteMin} = à 0");
+            Console.WriteLine($"Segundo tipo aguardado: {new BYte.GetByte().ByteMax} = à 255");
             
             Console.WriteLine("\n----------------------------------------------------------------------");
             // Console.WriteLine($"Tipo De Dado: {new BOol.GetBool().Titulo}");
